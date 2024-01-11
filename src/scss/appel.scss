@@ -1,0 +1,157 @@
+@media screen and (max-width: 430px) {
+  .Appel-whatsapp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 11% 89%;
+    .appel-bodys {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: 12% 90%;
+      .appel-link {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+      }
+    }
+    .fa-phone-flip{
+        position: absolute;
+        top: 600px;
+        font-size: 30px;
+        padding: 22px;
+        background: #25d366;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        rotate: 90.5deg;
+        right: 15px;
+    }
+  }
+  .link-appel {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    .fa-link {
+      align-items: center;
+      background: #25d366;
+      padding: 16px;
+      border-radius: 100%;
+      font-size: 25px;
+      color: white;
+      margin-left: 25px;
+    }
+    p {
+      font-family: "font-3";
+      h2 {
+        font-size: 18px;
+      }
+      span {
+        font-size: 16px;
+        color: rgb(168, 167, 167);
+      }
+    }
+  }
+  .link-appel:active {
+    background: rgb(202, 200, 200);
+  }
+  .appel-map-all {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    .appel-map-recent {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      h2 {
+        margin-left: 12px;
+        font-family: "font-3";
+      }
+    }
+    .appel-map-body {
+      width: 100%;
+      height: 100%;
+      .appel-map-card {
+        width: 100%;
+        height: 16%;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        .appel-map-img {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 70%;
+            height: 75%;
+            border-radius: 100%;
+            margin-left: 12px;
+            margin-top: 10px;
+          }
+        }
+        .appel-map-info {
+          width: 100%;
+          height: 100%;
+          display: grid;
+          grid-template-columns: 80% 20%;
+          align-items: center;
+          align-content: center;
+          font-family: "font-3";
+          .appel-map-text {
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-align: justify;
+            h2 {
+              margin-top: 5px;
+              font-size: 22px;
+              span{
+                color: rgb(243, 63, 63);
+              }
+            }
+            .appel-date {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              p {
+                margin-left: 17px;
+                color: rgb(168, 167, 167);
+              }
+              .fa-arrow-up-long {
+                font-size: 22px;
+                color: #25d366;
+                rotate: 37deg;
+              }
+              .fa-arrow-down-long {
+                font-size: 22px;
+                color: rgb(243, 63, 63);
+                rotate: 37deg;
+              }
+            }
+          }
+          .appel-map-icons-video {
+            width: 100%;
+            height: 100%;
+            .fa-video {
+              font-size: 25px;
+              color: #25d366;
+              margin-top: 15px;
+            }
+            .fa-phone {
+              font-size: 25px;
+              color: #25d366;
+              margin-top: 15px;
+            }
+          }
+        }
+      }
+      .appel-map-card:active {
+        background: rgb(202, 200, 200);
+      }
+    }
+  }
+}

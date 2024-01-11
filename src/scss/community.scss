@@ -1,0 +1,200 @@
+@media screen and (max-width: 430px) {
+  .community-whatsapp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 11% 89%;
+    .nav-barre1 {
+      margin-bottom: -10px;
+    }
+    .community-body {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: 10% 90%;
+      overflow-y: scroll;
+      .community-new {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        justify-items: center;
+        align-items: baseline;
+        .community-users-icons {
+          width: 100%;
+          height: 100%;
+          .fa-users {
+            position: relative;
+            background: #a19e9e;
+            padding: 15px;
+            font-size: 25px;
+            border-radius: 13px;
+            margin-left: 12px;
+            margin-top: 5px;
+            color: white;
+          }
+          .plus-plus {
+            position: relative;
+            background: #817777;
+            border-radius: 100%;
+            width: 39%;
+            padding: 3px;
+            top: -30px;
+            left: 50px;
+            .fa-plus {
+              padding: 7px;
+              font-size: 16px;
+              color: white;
+              background: #25d366;
+              border-radius: 100%;
+            }
+          }
+        }
+        .community-new-text {
+          font-family: "font-3";
+          h2 {
+            font-size: 18px;
+            margin-left: -55px;
+          }
+        }
+      }
+      .community-bodys {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .community-espace {
+    padding-top: 50px;
+    width: 100%;
+    display: grid;
+    height: 50%;
+    grid-template-rows: 23% 65% 13%;
+    
+    .community-nav {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 20% 80%;
+      border-bottom: 1.4px solid #a19e9e;
+      font-family: 'font-3';
+      align-items: center;
+      h2{
+        margin-left: 20px;
+        margin-top: -10px;
+      }
+      .community-nav-icons{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: -7px;
+        .fa-users {
+          position: absolute;
+          background: #a19e9e;
+          padding: 15px;
+          font-size: 25px;
+          border-radius: 13px;
+          margin-left: 12px;
+          margin-top: 5px;
+          color: white;
+        }
+      }
+    }
+    .community-content {
+      width: 100%;
+      max-height: 100%;
+      .community-maps {
+        width: 100%;
+        height: 16%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-bottom: 35px;
+        .community-map-img {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 70%;
+            height: 75%;
+            border-radius: 100%;
+            margin-left: 12px;
+            margin-top: 10px;
+          }
+        }
+        .community-map-info {
+          width: 100%;
+          height: 100%;
+          display: grid;
+          grid-template-columns: 60% 40%;
+          align-items: center;
+          align-content: center;
+          font-family: "font-3";
+          align-items: baseline;
+          .community-map-text {
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-align: justify;
+            h2 {
+              margin-top: 5px;
+              font-size: 22px;
+              span {
+                color: rgb(243, 63, 63);
+              }
+            }
+            .community-user {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              p {
+                margin-top: 3px;
+                margin-left: 17px;
+                font-size: 19px;
+                color: rgb(146, 144, 144);
+              }
+            }
+          }
+          .community-data {
+            width: 100%;
+            height: 100%;
+            p {
+              margin-left: 17px;
+              // font-size: 19px;
+              color: rgb(168, 167, 167);
+            }
+          }
+        }
+      }
+    }
+    .community-button{
+      padding-top: 15px;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 15% 85%;
+      justify-items: center;
+      align-items: center;
+      .fa-angle-right{
+        font-size: 19px;
+        color: rgb(154, 149, 149);
+      }
+      h3{
+        position: relative;
+        font-family: 'font-3';
+        font-size: 19px;
+        color: rgb(154, 149, 149);
+        left: -95px;
+      }
+    }
+  }
+  .community-nav:active {
+    background: rgb(141, 139, 139);
+  }
+  .community-button:active {
+    background: rgb(141, 139, 139);
+  }
+  .community-maps:active {
+    background: rgb(202, 200, 200);
+    height: 100%;
+  }
+}

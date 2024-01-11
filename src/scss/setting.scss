@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "font-1";
+    src: url(./assets/fonts/Dongle-Regular.ttf);
+}
+@font-face{
+    font-family: "font-2";
+    src: url(./assets/fonts/SignikaNegative-SemiBold.ttf);
+}
+@font-face{
+    font-family: "font-3";
+    src: url(./assets/fonts/roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: "font-4";
+    src: url(./assets/fonts/comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+
+@font-face{
+    font-family: "font-1";
+    src: url(./assets/fonts/Dongle-Regular.ttf);
+}
+@font-face{
+    font-family: "font-4";
+    src: url(./assets/fonts/comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    // overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

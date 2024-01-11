@@ -1,0 +1,117 @@
+.settings{
+    position: fixed;
+    z-index: 2;
+    width: 35%;
+    top: 30px;
+    left: 180px;
+    background: white;
+    color: black;
+    box-shadow: 2px 2px 3px rgba(37, 37, 37, 0.711);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'font-4';
+    font-size: 15px;
+    animation: anim 0.2s;
+    ul{
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+.settings1{
+    position: fixed;
+    z-index: 2;
+    width: 40%;
+    top: 350px;
+    // transition: 0.2s all;
+    left: 172px;
+    transform: translateY(0px);
+    background: white;
+    color: black;
+    box-shadow: 2px 2px 3px rgba(37, 37, 37, 0.711);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'font-4';
+    font-size: 15px;
+    animation: anim 0.2s;
+    ul{
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+.settings2{
+    position: fixed;
+    z-index: 2;
+    width: 40%;
+    top: 120px;
+    // transition: 0.2s all;
+    left: 172px;
+    transform: translateY(0px);
+    background: white;
+    color: black;
+    box-shadow: 2px 2px 3px rgba(37, 37, 37, 0.711);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'font-4';
+    font-size: 15px;
+    animation: anim 0.2s;
+    ul{
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+@keyframes anim{
+    0%{
+        transform: translateY(-10px);
+        transition: 0.01s all;
+    }
+    10%{
+        transform: translateY(-9px);
+        transition: 0.01s all;
+    }
+    20%{
+        transform: translateY(-8px);
+        transition: 0.01s all;
+    }
+    30%{
+        transform: translateY(-7px);
+        transition: 0.01s all;
+    }
+    40%{
+        transform: translateY(-6px);
+        transition: 0.01s all;
+    }
+    50%{
+        transform: translateY(-5px);
+        transition: 0.01s all;
+    }
+    60%{
+        transform: translateY(-4px);
+        transition: 0.01s all;
+    }
+    70%{
+        transform: translateY(-3px);
+        transition: 0.01s all;
+    }
+    80%{
+        transform: translateY(-2px);
+        transition: 0.01s all;
+    }
+    90%{
+        transform: translateY(-1px);
+        transition: 0.01s all;
+    }
+    100%{
+        transform: translateY(0px);
+        transition: 0.01s all;
+    }
+    
+}

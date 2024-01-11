@@ -1,0 +1,122 @@
+@media screen and (max-width: 430px) {
+  .Actu-whatsapp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 11% 89%;
+    .body-Actu {
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+      display: grid;
+      grid-template-rows: 30% 70%;
+      .Chaines{
+        width: 100%;
+        height: 100%;
+        .chaine{
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+    }
+    .fa-pen{
+      position: fixed;
+      border: none;
+      font-size: 27px;
+      top: 525px;
+      left: 280px;
+      padding: 12px 12px;
+      border-radius: 15px;
+      box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.744);
+      background: #a9ee9b;
+      color: #25d366;
+      animation: anims 0.3s;
+    }
+    .fa-camera-retro{
+      position: fixed;
+      border: none;
+      top: 600px;
+      font-size: 30px;
+      padding: 20px 20px;
+      left: 270px;
+      border-radius: 15px;
+      box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.744);
+      background: #25d366;
+      color: white;
+    }
+  }
+  .status-comments {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    font-family: "font-4";
+    border-bottom: 2px solid #c9cfc8;
+    .stat {
+      display: grid;
+      grid-template-columns: 90% 10%;
+      justify-items: stretch;
+      align-items: end;
+      h2 {
+        font-family: "font-4";
+        font-size: 22px;
+        margin-left: 10px;
+      }
+      .fa-ellipsis-vertical {
+        position: relative;
+        right: 1px;
+      }
+    }
+    .comments {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .profil {
+        margin-top: 10px;
+        width: 25%;
+        height: 60%;
+        display: grid;
+        grid-template-rows: 80% 20%;
+        margin-left: 30px;
+        justify-items: center;
+        justify-content: start;
+        .arriere {
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+          padding: 4px 4px;
+          background: #25d366;
+          margin-bottom: -10px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            content: normal;
+          }
+        }
+        p {
+          margin-top: 10px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+@keyframes anims{
+  30%{
+    transform: translateY(40px);
+  }
+  60%{
+    transform: translateY(20px);
+  }
+  90%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,101 @@
+.search-barre {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 240px;
+  font-family: "font-4";
+  display: grid;
+  grid-template-rows: 25% 75%;
+  background: white;
+  box-shadow: 2px 3px 3px #C9CFC8;
+  color: #323331;
+  .barre {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    input {
+      width: 90%;
+      outline: none;
+      height: 35px;
+      position: relative;
+      align-items: center;
+      margin-left: 17px;
+      border-radius: 50px;
+      font-family: "font-4";
+      font-size: 20px;
+      padding: 5px 40px;
+    }
+    .fa-arrow-left-long {
+      position: fixed;
+      right: 310px;
+      font-size: 20px;
+      align-items: center;
+      top: 7px;
+    }
+  }
+  .filter{
+    margin-bottom: -1px;
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.34%;
+    padding: 0px 10px;
+    align-items: center;
+    .option1{
+        width: 100%;
+        ul{
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            margin-bottom: 0px;
+            justify-items: center;
+            li{
+                list-style: none;
+                border: none;
+                border-radius: 50px;
+                padding: 7px 7px;
+                background: #C9CFC8;
+                font-size:16px;
+            }
+            i{
+                padding:0px 3px;
+            }
+        }
+    }
+    .option2{
+        width: 100%;
+        ul{
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            justify-items: start;
+            li{
+                list-style: none;
+                border: none;
+                border-radius: 50px;
+                padding: 8px 8px;
+                background: #C9CFC8;
+                font-size:17px;
+            }
+            i{
+                padding:0px 5px;
+            }
+        }
+    }
+    .option3{
+        width: 100%;
+        ul{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            justify-items: start;
+            li{
+                list-style: none;
+                border: none;
+                border-radius: 50px;
+                padding: 7px 7px;
+                background: #C9CFC8;
+                font-size:17px;
+            }
+            i{
+                padding:0px 5px;
+            }
+        }
+    }
+  }
+}
