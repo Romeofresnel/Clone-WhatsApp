@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import Portal4 from "../Portals/Portal4";
+import OpenCommunity from "./OpenCommunity";
 // import AppelMaps from "./AppelMaps"
 export default function Community() {
+  const[aff,setAff]=useState(false)
   const date = new Date();
   const time = Date.parse(date);
   const updata = new Date(time).toLocaleDateString("fr-FR", {
@@ -13,7 +16,7 @@ export default function Community() {
   return (
     <>
       <div className="community-espace">
-        <div className="community-nav">
+        <div className="community-nav" onClick={()=> aff? setAff(false):setAff(true)}>
           <div className="community-nav-icons">
             <i className="fas fa-users" />
           </div>
@@ -83,7 +86,7 @@ export default function Community() {
             </div>
           </div>
         </div>
-        <div className="community-button">
+        <div className="community-button" onClick={()=> aff?setAff(false):setAff(true)}>
           <i className="fas fa-angle-right"/>
           <h3>Tout Voir</h3>
         </div>
@@ -240,6 +243,9 @@ export default function Community() {
           <h3>Tout Voir</h3>
         </div>
       </div>
+      {aff && <Portal4>
+        <OpenCommunity close={setAff}/>
+      </Portal4>}
     </>
   );
 }
